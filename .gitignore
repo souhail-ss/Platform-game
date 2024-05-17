@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Visual Studio 2015 user specific files
 .vs/
 
@@ -72,3 +73,53 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+=======
+# Visual Studio files
+.vs/
+*.VC.db
+*.VC.VC.opendb
+*.VC.VC.db-wal
+*.VC.VC.db-shm
+
+# Compiled binary and database files
+*.sdf
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build directories
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Build configuration files
+*.opensdf
+*.sdf
+*.ipch
+*.aps
+*.ncb
+*.opendb
+*.VC.db
+
+# If using Perforce, add the following:
+#*.p4s
+#P4/
+
+# If using Rider, add the following:
+.idea/
+
+# Exclude Content folder if only code is needed, or specify which parts to include/exclude
+Content/
+!Content/Blueprints/  # Example: include only Blueprints, if necessary
+!Content/Materials/  # Example: include only Materials, if necessary
+
+# Ignore the uproject file if it's not needed
+#*.uproject
+
+# Ignore other irrelevant files
+.DS_Store
+Thumbs.db
+>>>>>>> 686f9a5 (initial project commit)
